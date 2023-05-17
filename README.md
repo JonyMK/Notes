@@ -1,2 +1,2 @@
 # Notes
-Just some appointments..
+Just some appointments.
