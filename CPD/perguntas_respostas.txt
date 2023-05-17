@@ -1,0 +1,97 @@
+1) O que é o GIL do Pyhton?
+
+R: a) É um bloqueio para permitir que apenas um thread tenha o controlo do interpretador python por vez
+
+2) Assinale a hipotesse incorreta
+
+R: Uma dificuldade para executar programas paralelos é escolher a maquina e o sistema operativo, dado que há poucas opçoes no mercado.
+
+3) Sobre pools de threads e processos, assinale as alternativas mais corretas:
+
+R: Num pool, os processos partilham o mesmo bloco PCB
+R: Pools evitam o overhead de criar e destruir threads ou processos
+
+4) Como se pode correr codigo paralelamente na mesma maquina usando python?
+
+R: Lançando varios interpretadores pyhton a partir de um programa a partir da linha de comando
+
+R: ustilzadon a biblioteca multiprocessing e a biblioteca threading
+
+6) R: O GIL do python protege contra condiçoes de corrida em threads e em processos
+
+7) O pipelining da CPU é uma caracteristica normal nos processadores hoje em dia
+
+R: Verdadeiro
+
+8) Perugnta de código
+R: o thread.join não pode ficar no mesmo ciclo for que o start
+R: Se não usar a variavel temp na função, o desempenho piora (é verdade) Resposta mais correta
+
+9) Sobre distribuição do trabalho...
+
+R: Ciclo for -> Ditribuir as iterações igualemnte pelas unidades de processamento
+Memoria distrbuida por 
+...
+
+10)
+PRocessamento coarse-grained -> Multiprocessing
+PRocessamento fine-grained -> Threading
+programas CPU-bound-> Multiprocessing
+programas IO-bound->Threading
+
+11) 
+
+Programa de acesso aleatorio a uma base de dados -> COncurrinicng
+Program que calcula se um numero é primo -> Threading
+Programa de processamento de ficheiros de imagem -> THreading
+Programa que calcula a inversa e o determinanete de uma matrix 1000x1000 -> MultiProcessing
+
+
+12) O pipelining nao tem paralelo com uma linha de montagem...
+R; falso
+
+13)
+import numpy as np
+rnd = np.random
+n = 1000
+soma = 0.0
+vetor = rnd.uniform(0,1000,size=n)
+melhor = 9999999
+for i in range(3)
+...
+R; largura da banda da RAM MBytes/segundo
+
+
+14)
+
+dependencia das instruçoes: Ininbidor da paralelização
+dependencia dos dados: Ininbidor da paralelização
+ciclo: Candidato À paralelização
+
+15) INdique as linhas incorretas:
+R: linha 2 (pool = Pool(processes = 2) e linha 7(pool.close())
+
+A linha 2 está errada porque é a forma errada de se chamar o pool 
+-> multiprocessing.pool forma correta
+
+16) O aumento da energia despendida por um processador varia de maneira linear...
+Falso
+
+17) Em todos os modelos de porgramação paralelea vistos , o ideal é que as partes do trabalho: (opção incorreta)
+R:  Sicronizem frquentemente
+
+18) por que temos feito exemplos nas praticas de CPD com multiplicações de matrixes?
+R: porque tem muitas aplicações em várias areas cientificas e é uma ferramenta basica de algebra linear
+
+19) neste codigo, a ordenaçao sequencial foi mais rapida que a ordenaçao paralela
+
+R: porque o espaço de dados nao era suficientemente grande para descontar o overhead associado
+
+20)
+Melhor opçao de mensagens -> poucas mensagens mas grandes
+Perminte computaçao concorrente -> Comunicaçáo Assíncrona
+latencia -> Capacidade
+bloqeuia o trabalho -> Comunicação Sincrona
+largura de banda -> Muitas mensagens pequenas
+
+21) opçao correta: a ultrapssagem da lei de moore pelo crescimento da necessidade de processamento levou à generalização de arquiteturas multicore no inicio do seculo XXI

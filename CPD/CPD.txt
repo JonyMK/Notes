@@ -1,0 +1,1159 @@
+Question 1 : O overclock do processador aumenta o consumo de energia proporcionalmente ao aumento da frequência de relógio.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 2 : Se eu dividir uma computação entre meu desktop com placa NVIDIA e meu laptop, conectados à mesma rede local, que classe de sistemas paralelos vou estar a usar?
+
+A resposta correta é:
+Um cluster heterogêneo de computadores
+
+-----------------------------------------------
+
+Question 3 : Faça a correspondência adequada, segundo o que foi visto na aula sobre Introdução à Computação Paralela:
+
+A resposta correcta é:
+Processamento de big data → Computação paralela,
+Interfaces do utilizador → Computação concorrente,
+Simulação do comportamento de fluidos → Computação paralela,
+Bases de dados → Computação concorrente,
+Multiplicação de matrizes → Computação paralela,
+Servidores Web → Computação concorrente,
+Renderização de gráficos 3D → Computação paralela
+
+-----------------------------------------------
+
+Question 4 : Assinale as razões que tornam a computação paralela mais complexa que a computação sequencial.
+
+Respostas corretas:
+Dificuldade em dividir uma computação sequencial em sub-computações paralelas,
+Aumento de erros potenciais na programação paralela
+
+-----------------------------------------------
+
+Question 3 : Para cada uma das alternativas, faça a correspondência com o modelo de programação que é mais corretamente definido pela característica:
+
+A resposta correcta é:
+Operações são feitas em simultâneo → Programação paralela,
+Pode permitir resolver em simultâneo sub-problemas de um problema maior → Programação paralela,
+As instruções de um programa são executadas uma após a outra. → Programação sequencial,
+Nunca tira partido de CPUs multi-core → Programação sequencial,
+Preocupa-se em como as computações a executar trocam informações → Programação concorrente,
+Necessita de hardware compatível → Programação paralela,
+Pode ou não fazer múltiplas execuções ao mesmo tempo → Programação concorrente,
+Preocupa-se em gerir qual tarefa vai ser executada a seguir → Programação concorrente,
+Preocupa-se principalmente com a eficiência da computação → Programação paralela
+
+-----------------------------------------------
+
+Question 5 : Gene Amdahl propôs uma fórmula para o limite teórico de ganho em rapidez de um programa executado de forma paralela em múltiplos processadores. A fórmula baseia-se na percentagem (em tempo) do programa que pode ser paralelizada e resulta no seguinte gráfico, retirado da Wikipedia:
+
+
+
+
+Segundo este gráfico, e sendo p a percentagem paralelizável de um programa, quais das alternativas abaixo estão corretas?
+
+Respostas corretas:
+O ganho incremental em eficiência decresce com o número de unidades de processamento acrescentadas ,
+Para qualquer número de processadores utilizados pelo programa, o ganho de eficiência nunca ultrapassa \( \frac{1}{1-p} \)
+
+
+-----------------------------------------------
+
+Question 6 : A computação paralela comercial existe desde o início da história da computação.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 7 : Sobre a granularidade das aplicações de computação paralela, faça a correspondência adequada:
+
+A resposta correcta é:
+Numa multiplicação de matrizes, divide-se as matrizes em blocos menores que são multiplicados em paralelo → Paralelismo instruction-level,
+O servidor web faz multi-threading e usa cores físicos diferentes para atender diferentes utilizadores → Paralelismo task-level,
+Ao aumentar o tamanho da palavra de memória, o processamento é realizado com menos instruções → Paralelismo bit-level
+
+-----------------------------------------------
+
+Question 1 : Na disciplina de Arquitetura, viram como funciona o pipelining dentro da CPU. Assinale a alternativa menos correta:
+
+A resposta correta é:
+O pipelining a nível de instrução foi habilitado com a evolução das CPUs de 32 para 64 bits
+
+-----------------------------------------------
+
+Question 2 : Sobre Hyperthreading, marque a alternativa menos correta:
+
+A resposta correta é: Duplica a região utilizada para processamento
+
+-----------------------------------------------
+
+Question 3 : Sobre multithreading, faça a correspondência adequada:
+
+A resposta correcta é:
+Alterna entre processadores virtuais somente nas maiores interrupções, tal como um miss na cache de nível 2. → Coarse-grained multithreading,
+Alterna implicitamente para o próximo processador virtual após cada instrução. → Fine-grained multithreading,
+Oculta a demora no acesso à memória ao simular um número fixo de processadores virtuais para cada processador físico. → Fine-grained multithreading
+
+-----------------------------------------------
+
+Question 4 : A Lei de Moore, de 1965, previa que:
+
+A resposta correta é:
+O número de transistores por circuito integrado dobraria a cada 18 a 24 meses
+
+-----------------------------------------------
+
+Question 5 : Sobre programação distribuída e programação paralela, faça a correspondência adequada:
+
+A resposta correcta é:
+A meta é processar o problema total o mais rápido possível → Programação paralela,
+Geralmente usa sistemas operativos iguais → Programação paralela,
+Geralmente usa sistemas operativos diferentes → Programação distribuída,
+Sistemas autónomos diferentes → Programação distribuída,
+Usa servidores remotos que podem por sua vez dividir o trabalho para vários processadores → Programação distribuída,
+Um problema é particionado por vários processadores → Programação paralela
+
+-----------------------------------------------
+
+Question 6 : A figura mostra uma parte da arquitetura Intel Quad-Core Xeon. Esta arquitetura segue um desenho:
+
+
+
+
+A resposta correta é:
+Hierárquico
+
+-----------------------------------------------
+
+Question 1 : GPUs são baseadas na classe onde, em cada passo do processamento, a mesma instrução é aplicada a vários valores.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 3 : A integração de caches no chip da CPU não melhora o problema da barreira de memória (Memory Wall), porque continua sendo memória com desvantagem no tempo de acesso em relação à velocidade da CPU.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 4 : A lógica de controlo para um processamento ILP (Instruction-Level Parallelism) não requer hardware de alta complexidade.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 5 : Assinale a alternativa menos correta relativamente a sistemas multi-processadores com espaço de endereçamento partilhado:
+
+A resposta correta é: As operações de sincronização são implícitas ao modelo utilizado
+
+-----------------------------------------------
+
+Question 6 : Sobre o espaço de memória para sistemas multi-processadores, faça a correspondência adequada:
+
+A resposta correcta é:
+Espaço de endereçamento de memória partilhado → Troca de dados pelo uso de variáveis,
+Espaço de endereçamento de memória distribuído → Troca de dados pelo uso de mensagens
+
+-----------------------------------------------
+
+Question 6 : A classe mais comum da taxonomia de Flynn, hoje em dia, é a classe onde, em cada passo do processamento,  múltiplas instruções são aplicadas sobre um só valor.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 7 : Sobre memória, faça a correspondência adequada:
+
+A resposta correcta é:
+Cache → SRAM,
+Menor tempo de acesso → SRAM,
+Maior área por kilobyte → SRAM,
+Menor custo por kilobyte → DRAM,
+RAM → DRAM
+
+-----------------------------------------------
+
+Question 8 : Sobre Redes de Interconexão, faça a correspondência das características com o valor desejado:
+
+A resposta correcta é:
+Largura de banda para bisseccionamento → Grande,
+Escalabilidade e expandabilidade → Grande,
+Conectividade → Grande,
+Grau de cada nó → Pequeno,
+Diâmetro → Pequeno
+
+-----------------------------------------------
+
+Question 10 : A estratégia de switching, ou chaveamento, determina se uma mensagem deve ser dividida em pacotes menores para transmissão.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 6 : Sobre a Localidade no acesso à memória, assinale a alternativa menos correta
+
+A resposta correta é:
+Linha de cache e bloco de cache são conceitos diferentes
+
+-----------------------------------------------
+
+Question 4 : Nos processadores multi-núcleo com desenho hierárquico, os cores partilham diversas caches.
+
+Answer: Verdadeiro
+
+-----------------------------------------------
+
+Question 5 : Sobre Redes de Interconexão, faça a correspondência adequada:
+
+Distância máxima entre quaisquer dois nós da rede -> Diâmetro = Correta
+Número mínimo de nós que devem ser removidos para disconectar a rede -> Conectividade de nós = Correta
+Número de nós adjacentes a um nó -> Grau do nó = Correta
+
+-----------------------------------------------
+
+Question 6 : Sobre os requisitos para um bom algoritmo de encaminhamento, assinale a alternativa menos correta:
+
+e.Prioritização das mensagens por emissor -> Correta
+
+-----------------------------------------------
+
+Question 2 : Sobre as medidas de desempenho para transferência de mensagens, faça a correspondência adequada:
+
+A resposta correcta é: Tempo requerido para transmitir uma mensagem sobre um canal de comunicação → Tempo de transmissão,
+Tempo que um bit leva para transitar do emissor ao recetor → Retardo de propagação do canal,
+Taxa de transmissão efetiva para uma aplicação específica → Throughput,
+Taxa máxima de transmissão num canal → Largura de banda,
+Bytes por segundo → Largura de banda,
+Tempo total para transferir uma mensagem → Latência de transporte
+
+-----------------------------------------------
+
+Question 3 : A estratégia de switching tem influência sobre o tempo de transmissão de uma mensagem?
+
+A resposta correta é:
+Sim, grande influência
+
+-----------------------------------------------
+
+Question 4 : Faça a correspondência adequada sobre Redes de Interconexão:
+
+A resposta correcta é:
+Os nós têm switches intermédios que fazem a conexão entre eles → Redes dinâmicas,
+Os nós são conectados ponto a ponto → Redes Estáticas,
+Estrutura geométrica das conexões → Topologia da rede,
+Estratégia de switching (chaveamento) → Modo de transmissão,
+Seleção do caminho → Algoritmo de encaminhamento
+
+-----------------------------------------------
+
+Question 1 : Sobre perfis de concorrência, temos um programa que:
+
+Coloca valores aleatórios numa matriz nxn
+Soma os valores de cada elemento da matriz, elevado ao quadrado
+
+Qual das hipóteses abaixo terá, provavelmente, o menor tempo de execução?
+
+A resposta correta é:
+Execução paralela com variáveis locais e acumulação somente no final
+
+-----------------------------------------------
+
+Question 3 : A arquitetura mostrada na figura um desenho:
+
+
+
+
+A resposta correta é:
+Pipeline
+
+-----------------------------------------------
+
+Question 6 : Sobre algoritmos de encaminhamento, faça a correspondência adequada:
+
+A resposta correcta é:
+Estabelecimento de um caminho concreto → Algoritmo determinístico,
+Escolha do caminho observando a utilização da rede → Algoritmo não-mínimo,
+Source based algorithm → Algoritmo determinístico,
+Escolha do menor caminho entre A e B → Algoritmo mínimo,
+Considera a utilização dinâmica → Algoritmo adaptativo
+
+-----------------------------------------------
+
+Question 8 : Assinale a alternativa menos correta sobre caches:
+
+A resposta correta é:
+Caches são memórias DRAM mais pequenas e embebidas no chip do processador
+
+-----------------------------------------------
+
+Question 9 : Sobre a multiplicação paralela de uma matriz por um vetor, faça a correspondência adequada:
+
+A resposta correcta é:
+Representação da matriz orientada a linhas → Variante da computação de produtos escalares,
+Deve-se evitar conflito de acesso → Arquitetura de memória partilhada,
+Representação da matriz orientada a colunas → Variante da combinação linear,
+Vetor de n/p colunas, onde n é o número de elementos do vetor e p é o número de cores → Variante da combinação linear
+
+-----------------------------------------------
+
+Question 2 : O uso nas CPUs de palavras de instrução muito longas, ou VLIW, como um mecanismo de melhoria do desempenho através do processamento paralelo de instruções, requer que os compiladores reconheçam quais instruções são independentes umas das outras e as organize na instruction word.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 3 : Sobre o hyperthreading, assinale a alternativa menos correta:
+
+A resposta correta é:
+A melhoria no tempo de execução depende da arquitetura da CPU e independe das aplicações
+
+-----------------------------------------------
+
+Question 6 : Sobre a forma como as tasks de uma computação decomposta se comunicam, faça a associação correta:
+
+A resposta correcta é: Sistemas de shared memory → Variáveis na memória,
+Sistemas de distributed memory → Comunicação pela rede
+
+-----------------------------------------------
+
+Question 7 : Sobre paralelização de programas, faça a correspondência adequada:
+
+A resposta correcta é:
+Especificação das dependências das tarefas → Decomposição das computações,
+Load balancing → Atribuição das tarefas aos processos,
+Minimizar overheads tais como custos de comunicação → Orquestração e Mapeamento dos processos aos cores,
+Escalonamento → Atribuição das tarefas aos processos
+
+-----------------------------------------------
+
+Question 10 : Qual a ordem correta desde o nível de abstração mais baixo até ao mais elevado?
+
+A resposta correta é:
+Modelos de máquinas paralelas, Modelos de arquiteturas paralelas, Modelos computacionais paralelos, Modelos de programação paralela
+
+-----------------------------------------------
+
+Question 1 : Na paralelização de ciclos for, a complexidade resultante (e portanto o ganho de eficiência) é afetada pela interdependência das operações realizadas em cada iteração.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 2 : Sobre loops paralelos, faça a correspondência adequada:
+
+A resposta correcta é:
+Todas as instruções podem ser executadas paralelamente → Paralelismo DOALL,
+As instruções sem inter-dependência são separadas e podem ser paralelizadas → Loop distribuído
+
+-----------------------------------------------
+
+Question 3 : A granularidade G de uma task é definida como a razão entre tempo de computação (uso da CPU) e tempo de comunicação (IO):
+
+\( G = \frac{T_{computação}}{T_{comunicação}} \)
+
+
+As tasks podem então ser classificadas, umas em relação às outras, como fine-grained, medium-grained, ou coarse-grained, conforme esta relação vá do valor mais pequeno para o maior.
+
+Considere as 3 hipóteses de processamento de uma imagem com 100 pixels:
+
+Usamos 100 unidades de processamento, cada uma processando 1 pixel
+Usamos 50 unidades de processamento, cada uma processando 2 pixels
+Usamos 2 unidades de processamento, cada uma processando 50 pixels
+
+Faça a associação correta de cada hipótese com o nível de granularidade correspondente:
+
+
+
+
+A resposta correcta é:
+Hipótese 3 → Coarse-grained,
+Hipótese 2 → Medium-grained,
+Hipótese 1 → Fine-grained
+
+-----------------------------------------------
+
+Question 4 : Adicionar concorrência ao seu programa sempre vai torná-lo mais rápido.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+assinale as duas alternativas mais corretas:
+	-o desempenho medido de um processador
+	-o tempo de acesso à memoria DRAM
+
+-----------------------------------------------
+
+Question 2 : VLSI significa:
+
+A resposta correta é:
+Integração em muito larga escala
+
+-----------------------------------------------
+
+Question 4 : Sobre a criação de threads, faça a associação correta:
+
+A resposta correcta é:
+Modo assíncrono → SPMD,
+Um thread existente lança um novo thread → Fork,
+Parbegin-Parend → Join implícito,
+Um novo thread é criado cada vez que um utilizador se liga ao servidor → Criação dinâmica,
+Criação de um pool de threads no início da execução → Criação estática,
+Modo síncrono → SIMD,
+O processamento aguarda que um thread termine para continuar as computações → Join
+
+-----------------------------------------------
+
+Quuestion 8 : Assinale a alternativa menos correta:
+
+A resposta correta é:
+
+O processamento de uma instrução não é afetado pelo tamanho do chip da CPU
+
+-----------------------------------------------
+
+Question 10 : O número de transístores num processador é uma indicação grosseira do seu desempenho e complexidade
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 1 : As Redes de Interconexão são usadas para comunicação entre os computadores de um sistema multi-computador em que a memória é distribuída. No caso de memória partilhada, não é possível utilizar estas redes.
+
+A resposta correta é: Falso
+-----------------------------------------------
+
+Question 1 : A diferença entre semáforos e locks é que o semáforos podem ter um limite de acessos maior que um acesso.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 5 : Sobre processos e threads, faça a correspondência adequada:
+
+A resposta correcta é:
+
+É possível a execução em nós de processamento diferentes → Processos,
+É possível a execução somente em cores ou CPUs do mesmo nó de processamento → Threads,
+Podem ser user-level ou kernel-level → Threads
+
+-----------------------------------------------
+
+Question 2 : A granularidade G de uma task é definida como a razão entre tempo de computação (uso da CPU) e tempo de comunicação (IO):
+
+G=TcomputaçãoTcomunicação
+
+
+As tasks podem então ser classificadas, umas em relação às outras, como fine-grained, medium-grained, ou coarse-grained, conforme esta relação vá do valor mais pequeno para o maior.
+
+Considere as 3 hipóteses de processamento de uma imagem com 100 pixels:
+
+    1. Usamos 100 unidades de processamento, cada uma processando 1 pixel
+    2. Usamos 50 unidades de processamento, cada uma processando 2 pixels
+    3. Usamos 2 unidades de processamento, cada uma processando 50 pixels
+
+Faça a associação correta de cada hipótese com o nível de granularidade correspondente:
+
+A resposta correcta é:
+
+Hipótese 3 → Coarse-grained,
+Hipótese 1 → Fine-grained,
+Hipótese 2 → Medium-grained
+
+-----------------------------------------------
+
+Question 4 : Sobre a taxonomia de Flynn, faça a correspondência adequada:
+
+A resposta correcta é:
+
+Em cada passo do processamento, a mesma instrução é aplicada sobre vários valores → SIMD,
+Em cada passo do processamento, múltiplas instruções são aplicadas sobre um só valor → MISD,
+Em cada passo do processamento, várias instruções são aplicadas sobre vários valores → MIMD,
+Em cada passo do processamento, uma instrução é aplicada sobre um só valor → SISD
+-----------------------------------------------
+
+Question 1 : Sobre níveis de paralelismo, faça a correspondência adequada:
+
+A resposta correcta é:
+
+Uma única thread cria threads workers e lhes atribui computações → Modelo master-slave,
+As threads usam uma estrutura de dados comum → Modelo Produtor-Consumidor,
+Reciclagem de threads → Modelo de um pool de tarefas,
+Passar vários vídeos por uma série de filtros de software → Modelo de paralelismo em pipelining,
+Uma thread recebe as solicitações dos clientes e os atende de forma concorrente ou paralela → Modelo cliente-servidor
+
+-----------------------------------------------
+
+Question 3 : Que tipo de concorrência é melhor para programas CPU-bound?
+
+A resposta correta é:
+
+Multiprocessing
+-----------------------------------------------
+
+Question 1 : Assinale a alternativa INCORRETA. Um modelo de programação:
+
+A resposta correta é: Permite executar tarefas em paralelo
+
+-----------------------------------------------
+
+Question 2 : No programa abaixo, o quê representa o x final?
+
+
+
+
+A resposta correta é:
+Largura de banda da RAM em MBytes/segundo
+
+-----------------------------------------------
+
+Question 3 : O aumento da energia despendida por um processador varia de maneira linear com o aumento da sua frequência de relógio.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 4 : Marque a alternativa INCORRETA. Em todos os modelos de programação paralela vistos, o ideal é que as partes do trabalho:
+
+A resposta correta é: Sincronizem frequentemente
+
+-----------------------------------------------
+
+Question 5 : O pipelining não tem paralelo com uma linha de montagem, é um processo em que só uma tarefa usa os recursos de cada vez.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 6 : Na multiplicação da matriz M pelo vetor V, usando programação sequencial iterativa, o código abaixo pode ser melhorado?
+
+
+
+
+A resposta correta é:
+Pode, se na linha 20 substituir o que lá está por
+
+temp = 0
+, usar esta variável na linha 23 para fazer a acumulação
+
+temp += M[i,j]*V[j]
+, e depois na linha 24, alinhado com o for j, fazer 
+
+resultado[i] = temp
+
+-----------------------------------------------
+
+Question 7 : Considerando o código a seguir que corre sem erros, assinale o output mais provável:
+
+
+
+
+
+
+Respostas corretas:
+Tempo multi-processos: 1.7997834
+Primeiro elemento do vetor resultado: 0.0
+Tempo sequencial: 4.212884799999999
+Primeiro elemento do vetor resultado: 7462941.620096451
+,
+Tempo multi-processos: 1.7997834
+Primeiro elemento do vetor resultado: 7462941.620096451
+Tempo sequencial: 4.212884799999999
+Primeiro elemento do vetor resultado: 0.0
+
+-----------------------------------------------
+
+Question 8 : Na multiplicação da matriz A pelo vetor B, usando programação sequencial iterativa, o código abaixo é ineficiente por quê?
+
+
+
+
+A resposta correta é:
+Porque ele tem de ir buscar o valor de resultado[i] em cada iteração e é menos eficiente que usar uma variável para acumular.
+
+-----------------------------------------------
+
+Question 9 : No código abaixo, o quê é o r1?
+
+
+
+
+A resposta correta é:
+Um processo assíncrono que lança o código da função countdown passando como parâmetro o valor da divisão inteira de COUNT por 2
+
+-----------------------------------------------
+
+Question 10 : Faça as correspondências adequadas:
+
+A resposta correcta é: A coordenação é feita através das variáveis partilhadas → Modelo de memória partilhada, A aplicação é uma coleção de processos → Comunicação por mensagens, Diversos processos em diversas máquinas → Comunicação por mensagens, Dados particionados → Comunicação por mensagens, A aplicação é uma coleção de threads → Modelo de memória partilhada
+
+-----------------------------------------------
+
+Question 11 : Qual das opções abaixo cria um vetor V com os elementos [4, 4, 4, 4, 4]?
+
+A resposta correta é:
+V = [4 for j in range(5)]
+
+-----------------------------------------------
+
+Question 12 : Assinale todas as alternativas que representam vantagens de usar a biblioteca NumPy:
+
+Respostas corretas:
+Os vetores NumPy são mais rápidos e compactos do que as listas Python,
+Um vetor NumPy consome menos memória que uma lista,
+Em relação a listas, NumPy usa muito menos memória para armazenar dados,
+O NumPy fornece um mecanismo de especificação dos tipos de dados
+
+-----------------------------------------------
+
+Question 13 : Assinale a alternativa correta:
+
+A resposta correta é: A ultrapassagem da Lei de Moore pelo crescimento da necessidade de processamento levou à generalização de arquiteturas multi-core no início do século XXI
+
+-----------------------------------------------
+
+Question 14 : Associe corretamente:
+
+A resposta correcta é: Uso de dados em proximidade de dados utilizados recentemente → Localidade espacial, Salvar em cache valores frequentemente utilizados → Localidade temporal, Ler blocos inteiros de memória com dados que vão ser todos utilizados → Localidade espacial, Reutilização de dados utilizados recentemente → Localidade temporal
+
+-----------------------------------------------
+
+Question 16 : Considerando o código a seguir que corre sem erros, assinale a alternativa mais correta:
+
+
+
+
+
+
+A resposta correta é:
+Se não usar a variável temp na função, o desempenho piora.
+
+-----------------------------------------------
+
+Question 18 : Sobre Pools de threads e processos, assinale as alternativas mais corretas:
+
+Respostas corretas:
+Pools são vantajosos para limitar a utilização de recursos da máquina,
+Pools evitam o overhead de criar e destruir threads ou processos,
+Os threads ou processos de um Pool podem ser reutilizados
+
+-----------------------------------------------
+
+Question 19 : Faça a correspondência adequada entre o tipo de processamento e a biblioteca a utilizar:
+
+A resposta correcta é:
+Programa que calcula se um número é primo → Multiprocessing,
+Programa de acesso aleatório a uma base de dados → Threading,
+Programa que calcula a inversa e o determinante de uma matriz 1000x1000 → Multiprocessing,
+Programa de processamento de ficheiros de imagens → Threading
+
+-----------------------------------------------
+
+Question 20 : Assinale as duas alternativas mais corretas:
+
+Respostas corretas:
+O desempenho medido de um processador pode ser diferente se estiver a trabalhar com números reais ou com números inteiros,
+O tempo de acesso à memória DRAM não acompanhou o crescimento na velocidade dos processadores e isso cria uma barreira de desempenho
+
+-----------------------------------------------
+
+Question 2 : Assinale a alternativa incorreta:
+
+A resposta correta é:
+O GIL (Global Interpreter Lock) do Python protege contra condições de corrida em threads e em processos.
+
+-----------------------------------------------
+
+Question 4 : Como se pode correr código concorrente na mesma máquina usando Python? Assinale todas as alternativas que se aplicarem.
+
+Respostas corretas:
+Utilizando a biblioteca threading,
+Utilizando a biblioteca multiprocessing,
+Lançando vários interpretadores Python
+
+-----------------------------------------------
+
+Question 7 : Assinale todas as alternativas que representam vantagens de usar a biblioteca NumPy:
+
+Respostas corretas:
+Os vetores NumPy são mais rápidos e compactos do que as listas Python,
+Um vetor NumPy consome menos memória que uma lista,
+Em relação a listas, NumPy usa muito menos memória para armazenar dados,
+O NumPy fornece um mecanismo de especificação dos tipos de dados
+
+-----------------------------------------------
+
+Question 9 : A frequência de relógio dos processadores tende a continuar aumentando sem limite porque novas técnicas de fabrico permitem arrefecer o equipamento.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 10 : Sobre comunicação, faça a correspondência;
+
+A resposta correcta é: Latência → Muitas mensagens pequenas, Largura de banda → Capacidade, Permite computação concorrente → Comunicação assíncrona, Melhor opção de mensagens → Poucas mensagens mas grandes, Bloqueia o trabalho → Comunicação síncrona
+
+-----------------------------------------------
+
+Question 11 : No código Python abaixo, qual o resultado?
+
+
+
+
+A resposta correta é:
+True
+
+-----------------------------------------------
+
+Question 12 : No código abaixo, qual ou quais linhas estão erradas ou são desnecessárias para obter o resultado desejado (ou seja, dois processos, cada um a usar metade dos dados)?
+
+
+
+
+A resposta correta é:
+Linha 6
+
+-----------------------------------------------
+
+Question 14 : Assinale a alternativa INCORRETA:
+
+A resposta correta é: Uma dificuldade para executar programas paralelos é escolher a máquina e o sistema operativo, dado que há poucas opções no mercado
+
+-----------------------------------------------
+
+Question 15 : O pipelining da CPU é uma característica normal nos processadores hoje em dia.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 19 : Sobre distribuição do trabalho, faça a correspondência:
+
+A resposta correcta é: Operações com arrays e matrizes → Distribuir os dados igualmente pelas unidades de processamento, Memória distribuída por máquinas de características diferentes → Distribuir o trabalho dinamicamente, Ciclos for → Distribuir as iterações igualmente pelas unidades de processamento
+
+-----------------------------------------------
+
+Question 8 : Faça a correspondência adequada entre o tipo de processamento e a biblioteca a utilizar:
+
+A resposta correcta é:
+Programas IO-bound → Threading,
+Programas CPU-bound → Multiprocessing,
+Processamento coarse-grained → Multiprocessing,
+Processamento fine-grained → Threading
+
+-----------------------------------------------
+
+Question 9 : Num programa, são melhores candidatos à paralelização:
+
+A resposta correta é: Ciclos
+
+-----------------------------------------------
+
+Question 10 : Por que temos feito muitos exemplos e exercícios nas práticas de Computação Paralela e Distribuída usando a multiplicação de matrizes (assinale a melhor resposta):
+
+A resposta correta é:
+Porque tem numerosas aplicações em várias áreas científicas e é uma ferramenta básica da álgebra linear.
+
+-----------------------------------------------
+
+Question 17 : Como se entra e como se sai da consola Python interativa (o REPL)?
+
+A resposta correta é:
+Para entrar: python
+
+Para sair: exit()
+
+-----------------------------------------------
+
+Question 20 : Como se pode correr código paralelamente na mesma máquina usando Python? Assinale todas as alternativas que se aplicarem.
+
+Respostas corretas:
+Utilizando a biblioteca multiprocessing num só programa,
+Lançando vários interpretadores Python a partir de um programa ou a partir da linha de comando
+
+-----------------------------------------------
+
+Question 20 : Qual o output do código Python abaixo?
+
+
+
+
+A resposta correta é:
+['Ouço', '', '', 'esqueço; Leio', '', '', 'aprendo; Faço', '', '', 'entendo!']
+
+-----------------------------------------------
+
+Question 1 : Sobre correção em computação paralela, faça a correspondência adequada:
+
+Answer:
+Devemos escrever nossos programas de forma a que o entrelaçamento das instruções não afete o resultado -> O output deve ser sempre o mesmo nas execuções em paralelo = Correta
+Deve-se evitar ter múltiplos resultados conforme a ordem em que os processos ou threads executam -> O output deve ser o mesmo se o código não for executado em paralelo = Correta
+
+
+-----------------------------------------------
+
+Question 3 : Sobre seções críticas num programa paralelo, faça a correspondência adequada:
+
+Answer:
+Os processos aguardam até que uma condição esteja satisfeita -> Sincronização condicional = Correta
+O acesso a uma variável é efetuado à vez pelos processos -> Sincronização com exclusão mútua = Correta
+Garante que as seções críticas não vão ser intercaladas com nenhum outro código -> Atomicidade = Correta
+Somente um processo executa num certo momento -> Serialização = Correta
+
+
+-----------------------------------------------
+
+Question 4 : Sobre a distribuição dos elementos de um vetor para processamento paralelo, faça a correspondência adequada:
+
+Answer:
+O elemento 1 vai para o core 1, o elemento 2 vai para o core 2, o elemento 3 vai para o core 1, o elemento 4 vai para o core 2 -> Distribuição cíclica = Correta
+Os elementos 1 a 4 vão para o core 1, os elementos 5 a 8 vão para o core 2, os elementos 9 a 12 vão para o core 1, os elementos 13 a 16 vão para o core 2 -> Distribuição cíclica de blocos = Correta
+Os elementos 1 a 10 vão para o core 1, os elementos 11 a 20 vão para o core 2 -> Distribuição simples de blocos = Correta
+
+
+-----------------------------------------------
+
+Question 6 : Sobre distribuição de dados, considere o código abaixo:
+
+1 from multiprocessing import Process, current_process
+2 import time
+3 def quadrado(nums):
+4     pnome = current_process().name
+5     for num in nums:
+6         resultado = num * num
+7         print(f"Processo {pnome}; o quadrado do número {num} é {resultado}.")
+8
+9 if __name__ == '__main__':
+10     processos = []
+11     numeros = range(100)
+12     for i in range(4):
+13         processo = Process(target=quadrado, args=(numeros,))
+14         processos.append(processo)
+15         processo.start()
+16     for processo in processos:
+17         processo.join()
+18     print("Multiprocessamento completo")
+
+Para não haver duplicação de output, quais linhas deveriam ser alteradas (supondo que a divisão do número de elementos pelo número de cores é exata)?
+
+Answer:
+c.Apenas a 13 -> Correta
+
+
+-----------------------------------------------
+
+Question 7 : Sobre processos e threads, faça a correspondência adequada:
+
+Answer:
+Fazem context switch através do escalonamento do sistema -> Processos = Correta
+Programas em execução -> Processos = Correta
+Têm um espaço partilhado de endereçamento -> Threads = Correta
+Processos concorrentes mas não paralelos -> Multitasking = Correta
+Fluxos de computações do mesmo programa -> Threads = Correta
+Têm um espaço próprio de endereçamento -> Processos = Correta
+
+
+-----------------------------------------------
+
+Question 8 : O overhead para criar threads e para criar processos é semelhante.
+
+Answer:
+Falso -> Correta
+
+-----------------------------------------------
+
+Question 9 : Sobre distribuição de dados, considere o código abaixo:
+
+from multiprocessing import Process, current_process
+import time
+def quadrado(nums):
+    pnome = current_process().name
+    for num in nums:
+        resultado = num * num
+        print(f"Processo {pnome}; o quadrado do número {num} é {resultado}.")
+
+if __name__ == '__main__':
+    processos = []
+    numeros = range(100)
+    for i in range(4):
+        processo = Process(target=quadrado, args=(numeros,))
+        processos.append(processo)
+        processo.start()
+    for processo in processos:
+        processo.join()
+    print("Multiprocessamento completo")
+
+Quantas linhas terá o output deste programa?
+
+Answer:
+b.401 -> Correta
+
+
+-----------------------------------------------
+
+Question 10 : O paradigma de passagem de mensagens é baseado na falta de mecanismos de sincronização para copiar dados entre processos.
+
+Answer:
+Verdadeiro
+
+-----------------------------------------------
+
+Question 11 : Sobre a troca de informações no processamento paralelo, faça a correspondência adequada:
+
+Answer:
+Operações de comunicação -> Memória distribuída = Correta
+Comunicação ponto-a-ponto ou comunicação global -> Memória distribuída = Correta
+Lock e Unlock -> Memória partilhada = Correta
+Operações de sincronização -> Memória partilhada = Correta
+
+
+-----------------------------------------------
+
+Question 12 : Na multiplicação paralela de uma matriz A nxm por um vetor b, o quê pode falhar no código a seguir?
+
+local_n = n/p;
+for (i=0; i<local_n; i++) c[i+(k-1)*local_n] = 0;
+for (i=0; i<local_n; i++)
+    for (j=0; j<m; j++)
+        c[i+(k-1)*local_n] = c[i+(k-1)*local_n] + A[i+(k-1)*local_n][j] * b[j];
+synch();
+
+
+
+Answer:
+b.O número n de elementos pode não ser divisível pelo número p de cores -> Correta
+
+
+-----------------------------------------------
+
+Question 13 : Um processo é um programa em execução, e cada processo tem sempre pelo menos um thread.
+
+Answer: Verdadeiro = Correta
+
+-----------------------------------------------
+
+Question 14 : Os efeitos da cooperação e da coordenação de threads podem ser diferentes na concorrência e no paralelismo.
+
+
+
+Answer : Verdadeiro = Correta
+
+-----------------------------------------------
+
+Question 16 : Sobre distribuição de dados para processamento paralelo, faça a correspondência adequada:
+
+Cada processador só pode aceder aos dados que lhe foram atribuídos -> Memória distribuída = Correta
+É necessário um padrão para evitar que cada core ou processador aceda a dados que deveriam ser manipulados por outra unidade de processamento -> Memória partilhada = Correta
+Todos os dados ficam na mesma memória -> Memória partilhada = Correta
+Somente os dados atribuídos a uma unidade de processamento ficam na memória local -> Memória distribuída = Correta
+
+-----------------------------------------------
+
+Question 2 : Tem um programa IO-bound que leva 2 segundos para executar e é lançado uma vez por semana. Qual estratégia de concorrência deve utilizar?
+
+A resposta correta é:
+Não deve usar concorrência
+
+-----------------------------------------------
+
+Question 1 : Em redes peer-to-peer, os index servers e os brokers:
+
+A resposta correta é:
+Melhoram o desempenho e a eficiência
+
+-----------------------------------------------
+
+Question 2 : Um estilo de arquitetura para sistemas distribuídos é formulado em que termos? Assinale a alternativa incorreta.
+
+A resposta correta é:
+Quais linguagens de programação são utilizadas
+
+-----------------------------------------------
+
+Question 3 : Faça a correspondência adequada:
+
+A resposta correcta é:
+Funções de uma aplicação → Processing Layer,
+Informação que o cliente deseja → Data Layer,
+Unidades de interface com os utilizadores ou aplicações externas → Application-interface layer
+
+-----------------------------------------------
+
+Question 4 : Assinale as duas alternativas incorretas. Um conector provê mecanismos de comunicação, coordenação ou cooperação para:
+
+Respostas corretas:
+Debugging dos componentes,
+Partilha de variáveis
+
+-----------------------------------------------
+
+Question 5 : Relativamente a redes peer-to-peer não estruturadas, faça a correspondência adequada:
+
+A resposta correcta é:
+Mais rápido a encontrar o resultado → Flooding,
+O nó passa a solicitação para todos os vizinhos → Flooding,
+O nó passa a solicitação para um vizinho aleatoriamente escolhido → Random walk,
+Mais eficiente na comunicação → Random walk
+
+-----------------------------------------------
+
+Question 6 : Faça a correspondência adequada:
+
+A resposta correcta é:
+Interface a serviços com API especializada e extensível → SOAP,
+Os componentes conectam-se através de chamadas a procedimentos através da rede → Estilo baseado em objetos,
+Um sistema distribuído é visto como uma coleção de recursos geríveis por componentes → Arquiteturas RESTful,
+Interface a serviços com API simples do protocolo HTTP → Arquiteturas RESTful
+
+-----------------------------------------------
+
+Question 3 : O deadlock na computação paralela é causado quando o número de comandos acquire() não bate com o número de comandos release()
+
+Answer:
+Falso
+
+-----------------------------------------------
+
+Question 2 : Sobre coordenação em sistemas distribuídos, faça a associação adequada:
+
+A resposta correcta é:
+Referencialmente acoplados, temporalmente acoplados → Coordenação direta,
+Referencialmente desacoplados, temporalmente desacoplados → Coordenação por espaço de dados partilhado,
+Referencialmente acoplados, temporalmente desacoplados → Coordenação por caixa de correio,
+Referencialmente desacoplados, temporalmente acoplados → Coordenação por eventos
+
+-----------------------------------------------
+
+Question 4 : Como se chama o componente que faz a interface com um sistema legado? (marque 2 respostas corretas)
+
+Respostas corretas:
+Wrapper,
+Adapter
+
+-----------------------------------------------
+
+Question 12 : Que é o GIL do Python?
+
+A resposta correta é:
+É um bloqueio para permitir que apenas um thread tenha o controlo do interpretador Python por vez
+
+-----------------------------------------------
+
+Question 20 : Há situações favoráveis à paralelização e há situações inibidoras da paralelização. Faça a correspondência: 
+
+A resposta correcta é: Dependência dos dados → Inibidor da paralelização, Ciclo → Candidato à paralelização, Dependência das instruções → Inibidor da paralelização
+
+-----------------------------------------------
+
+Question 1 : O endereço IP de destino de um pacote muda em cada troço do caminho percorrido por esse pacote.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
+Question 2 : A máscara de rede indica os bits de um endereço IP versão 4 que designam uma rede. Os restantes designam cada hospedeiro nesta rede.
+
+Suponha que a máscara diz que há 24 bits no endereço de rede de um computador cujo endereço IP é 192.168.10.20.
+
+Portanto, seu endereço de rede e seu endereço IP são:
+
+A resposta correta é: 192.168.10.0 e 192.168.10.20
+
+-----------------------------------------------
+
+Question 3 : Qual o protocolo que evita que um pacote fique eternamente a circular na rede se não encontrar seu destino?
+
+A resposta correta é: IP
+
+-----------------------------------------------
+
+Question 4 : Qual a diferença entre usar UDP e usar TCP para a comunicação em rede?
+
+A resposta correta é: TCP oferece garantias de entrega em ordem, enquanto que o UDP oferece um serviço de melhor esforço
+
+-----------------------------------------------
+
+Question 5 : Uma sessão TCP é definida por:
+
+A resposta correta é: Um par de sockets
+
+-----------------------------------------------
+
+Question 6 : Teoricamente, quantos processos diferentes uma máquina pode ter que estejam a comunicar em rede ao mesmo tempo?
+
+A resposta correta é: 65.536 para cada protocolo de transporte
+
+-----------------------------------------------
+
+Question 7 : A identificação de um socket envolve:
+
+A resposta correta é: O protocolo de transporte, o endereço IP e o número da porta associado à aplicação
+
+-----------------------------------------------
+
+Question 8 : No modelo cliente/servidor, quais as funções do cliente e do servidor?
+
+A resposta correta é: O servidor fica a aguardar uma conexão do cliente. O cliente sempre inicia a conexão.
+
+-----------------------------------------------
+
+Question 9 : Antes de trocar mensagens via TCP, é necessário o estabelecimento de uma sessão subjacente.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 10 : Segundo o conceito de encapsulamento, cada protocolo conversa com o protocolo equivalente através da adição de campos de controle no pacote que vai ser transmitido.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 4 : Marque a alternativa INCORRETA. Antes de surgirem os browsers da Internet, esta era utilizada principalmente para:
+
+A resposta correta é: Jogos
+
+-----------------------------------------------
+
+Question 5 : A guerra fria foi determinante na decisão de criar acessos redundantes entre computadores da agência de defesa americana.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 9 : Os protocolos base da Internet permanecem praticamente os mesmos desde os anos 70/80
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 7 : Sobre organizações alternativas de sistemas distribuídos, faça a correspondência adequada:
+
+A resposta correcta é:
+Cada parte do cliente ou servidor opera com seu próprio sub-conjunto dos dados → Distribuição horizontal,
+Os componentes de cada um dos três layers são executados em máquinas diferentes → Distribuição vertical,
+Cada processo atua como cliente e servidor ao mesmo tempo → Arquiteturas peer-to-peer
+
+-----------------------------------------------
+
+Question 9 : O protocolo TCP dá garantias sobre uma rede sem garantias e pode estar instalado somente nos hospedeiros que estão a se comunicar.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 12 : O endereço físico de destino de cada pacote, ou endereço MAC, muda em cada troço do caminho percorrido por esse pacote.
+
+A resposta correta é: Verdadeiro
+
+-----------------------------------------------
+
+Question 20 : Antes de trocar mensagens via UDP, é necessário o estabelecimento de uma sessão subjacente.
+
+A resposta correta é: Falso
+
+-----------------------------------------------
+
